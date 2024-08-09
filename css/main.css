@@ -169,4 +169,38 @@ input[type=text], select, textarea {
    color: white;
 
  }
- 
+ footer{
+   text-align: center;
+   padding: 25px;
+ }
+/* media queries */
+@media screen and (max-width: 768px) {
+   body{
+      font-size: .8em;
+   }
+   .media ul{
+      display: flex;
+      justify-content: space-around;
+   }
+   .about{
+      width: 90%;
+   }
+   .terminal{
+      text-align: center;
+   }
+   .person{
+      width: 80%;
+      height: 80vh;
+   }
+   .project{
+      margin: 35px auto;
+   }
+   .skills li{
+      margin: 5px;
+   }
+   .skills img{
+      width: 50px;
+      height: 50px;
+      padding: 10px;
+   }
+}
